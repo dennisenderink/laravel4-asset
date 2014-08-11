@@ -5,7 +5,7 @@ A port of Laravel 3's Asset class. Made to work with Laravel 4.
 
 ### Composer Side
 
-add `"teepluss/asset": "dev-master"` to the `require` section of your `composer.json` so that it should look something the code below.
+add `"dennisenderink/asset": "dev-master"` to the `require` section of your `composer.json` so that it should look something the code below.
 
 ```composer
 ...
@@ -15,7 +15,7 @@ add `"teepluss/asset": "dev-master"` to the `require` section of your `composer.
 	...
 	...
 	...
-	"teepluss/asset": "dev-master"
+	"dennisenderink/asset": "dev-master"
 },
 ...
 ...
@@ -27,7 +27,7 @@ add `"teepluss/asset": "dev-master"` to the `require` section of your `composer.
 add the following code to the `providers` section of the `app/config/app.php` file
 
 ```php
-'Teepluss\Asset\AssetServiceProvider',
+'Dennisenderink\Asset\AssetServiceProvider',
 ```
 
 so that it'll look something like the following
@@ -38,7 +38,7 @@ so that it'll look something like the following
 	...
 	...
 	...
-	'Teepluss\Asset\AssetServiceProvider',
+	'Dennisenderink\Asset\AssetServiceProvider',
 
 ),
 ```
@@ -46,7 +46,7 @@ so that it'll look something like the following
 and add the following code to the `aliases` section of the `app/config/app.php` file
 
 ```php
-'Asset' => 'Teepluss\Asset\Facades\Asset'
+'Asset' => 'Dennisenderink\Asset\Facades\Asset'
 ```
 
 so that it'll look something like the following
@@ -57,7 +57,7 @@ so that it'll look something like the following
 	...
 	...
 	...
-	'Asset'       => 'Teepluss\Asset\Facades\Asset',
+	'Asset'       => 'Dennisenderink\Asset\Facades\Asset',
 
 ),
 ```

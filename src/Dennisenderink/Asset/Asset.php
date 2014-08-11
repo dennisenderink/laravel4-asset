@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Asset;
+<?php namespace Dennisenderink\Asset;
 
 use Illuminate\Support\Facades\HTML;
 use Config;

@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Asset;
+<?php namespace Dennisenderink\Asset;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class AssetServiceProvider extends ServiceProvider {
 
 	public function boot()
 	{
-		$this->package('teepluss/asset');
+		$this->package('dennisenderink/asset');
 	}
 
 	/**

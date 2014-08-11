@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Asset\Facades;
+<?php namespace Dennisenderink\Asset\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

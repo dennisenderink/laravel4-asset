@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dennisenderink\\Asset": "src/Dennisenderink/Asset"
+            "Dennisenderink\\Asset\\": "src/Dennisenderink/Asset"
         }
     },
     "minimum-stability": "dev"
